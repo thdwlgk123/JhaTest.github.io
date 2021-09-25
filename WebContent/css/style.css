@@ -1,0 +1,144 @@
+@charset "UTF-8";
+.table {
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+	cellpadding:0;
+	cellspacing:0;
+	border:1;
+}
+
+.atom_field, .atom_button {
+	margin-bottom:0;
+	display: grid;
+	width:100%;
+	box-sizing:inherit;
+	margin-bottom: .2rem;
+}
+.visually_hidden{
+	border:0;
+	margin:-1px;
+	height:1px;
+	overflow:hidden;
+	padding:0;
+	position:absolute;
+	width:1px;
+}
+.modal{
+	position: fixed;
+	  top: 0;
+	  right: 0;
+	  bottom: 0;
+	  left: 0;
+	  background: rgba(0, 0, 0, 0.6);
+	  margin: 0 auto;
+      width: 100%;
+      position: relative;
+      padding: 0 20px 32px;
+      box-sizing: border-box;
+      justify-content: center;
+      flex-direction: column;
+      width: 480px;
+    height: 621px;
+    background-color: white;
+    position: relative;
+    box-sizing: border-box;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff; 
+}
+.label{
+	display:block;
+	
+}
+.modal> .main_form{
+	margin-top:32px;
+	display:grid;
+	grid-template-rows:repeat(1,1fr);
+	grid-row-gap:1rem;
+}
+
+/* .modal-footerform> button{ */
+/* 	background:#1dc078; */
+/* 	color:#fff; */
+/* 	font-size: 1.0em; */
+/* 	font-weight:700; */
+/* 	height:44px; */
+/* 	justify-content: center; */
+/* 	text-align:center; */
+/* 	display:inline-flex; */
+/* 	line-height:1.5; */
+/* 	position:relative; */
+/* 	vertical-align:top; */
+/* 	box-sizing:inherit;	 */
+/* } */
+.atom_button {
+
+	background:#1dc078;
+	color:#fff;
+	font-size: 1.0em;
+	font-weight:700;
+	height:44px;
+	justify-content: center;
+	text-align:center;
+	display:inline-flex;
+	line-height:1.5;
+	position:relative;
+	vertical-align:top;
+	box-sizing:inherit;	
+}
+/* .modal-footerform { */
+	
+/* 	margin-top:16px; */
+/* 	margin-bottom:30px; */
+/* 	text-align:center; */
+/* 	box-sizing:inherit; */
+/* 	text-size-adjext:100%; */
+/* } */
+
+div.list_content{
+	padding:10px;
+	width:60%;
+	float: left;
+	margin:5px;
+}
+/* div.sidebar{ */
+/* 	width:30%; */
+/* 	background-color: grey; */
+/* 	float:right; */
+/* 	margin:5px; */
+/* 	background:#fef; */
+/* } */
+
+#content {
+	 margin:0 auto;
+/*             border:1px solid #cccccc; */
+ 	overflow:hidden;
+        }
+
+#main_content{
+	width:80%;
+/* 	font-weight:bold; font-size:1.2em; */
+	padding:10px;
+	float:left;
+	border:1px solid #cccccc;
+	margin:10px;
+ }
+
+ #aside_content {          
+/* 	 font-weight:bold; font-size:1.2em;           */
+	 width:15%;
+	 padding:10px;
+	 float:right;
+	 margin:10px;
+}
+.managerbox{
+	position: relative;
+	width: 80%;
+    padding: 20px;
+    margin-bottom: 20px;
+/*     float: right; */
+    border: 1px solid #bcbcbc;
+	
+}
